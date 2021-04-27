@@ -7,10 +7,14 @@ using UnityEngine;
 [Serializable]
 public class Data
 {
-    public string val;
+    public string xVal;
+    public string yVal;
 
-    public Data()
+    public Data(float xData, float yData)
     {
-        val = pushFirebase.val.ToString();
+        xVal = xData.ToString();
+        yVal = yData.ToString();
     }
+
+    //public string allValues = "X-value: " + xVal + "Y-Value: " + yVal;
 }

@@ -8,7 +8,8 @@ public class pushFirebase : MonoBehaviour
 {
 
     public Text text;
-    public static float val = 0f;
+    private float xVal = 0f;
+    private float yVal = 0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,23 +21,35 @@ public class pushFirebase : MonoBehaviour
     {
         
         
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            val += .5f;
-            text.text = val.ToString();
+            xVal += .5f;
+            text.text = xVal.ToString();
+            postFirebase();
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            xVal -= .5f;
+            text.text = xVal.ToString();
+            postFirebase();
+        }
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            yVal += .5f;
+            text.text = yVal.ToString();
             postFirebase();
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            val -= .5f;
-            text.text = val.ToString();
+            yVal -= .5f;
+            text.text = yVal.ToString();
             postFirebase();
         }
     }
 
     public void postFirebase()
     {
-        Data data = new Data();
+        Data data = new Data(xVal, yVal);
         RestClient.Put("https://testproject-d51e9-default-rtdb.firebaseio.com/"+"Data:"+".json",data);
     }
 }
