@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 742f5b16b5a7d164da9988af47a223af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllerCharacteristics: 64
+  controllerCharacteristics: 0
   BaseURL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSfO7ExTbUAt3yblEGpZryQZlg53F4IZE8UWz7GTy8jjPWIJlQ/formResponse
 --- !u!4 &844809091
 Transform:
