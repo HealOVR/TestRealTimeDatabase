@@ -312,6 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1182705713}
+  controllerCharacteristics: 64
 --- !u!4 &844809091
 Transform:
   m_ObjectHideFlags: 0
