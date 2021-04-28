@@ -15,12 +15,12 @@ D:/Project HealOVR/TestRealTimeDatabase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13145
+2070
 Successfully changed project path to: D:/Project HealOVR/TestRealTimeDatabase
 D:/Project HealOVR/TestRealTimeDatabase
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.26 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.66 ms.
+Refreshing native plugins compatible for Editor in 26.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Project HealOVR/TestRealTimeDatabase/Assets
@@ -35,338 +35,492 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002081 seconds.
+Registered in 0.002106 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.19 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.244 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.002200 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 35.38 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  2.130 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.2 MB.
 System memory in use after: 65.3 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1833.
-Total: 1.718500 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.447100 ms  DeleteObjects: 0.064900 ms)
+Total: 1.703000 ms (FindLiveObjects: 0.144700 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.461600 ms  DeleteObjects: 0.059200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/pushFirebase.cs
-  artifactKey: Guid(a0677c6faa554ba429b07eaa1bfd4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pushFirebase.cs using Guid(a0677c6faa554ba429b07eaa1bfd4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dd029ea2c08c718ad12431a30ac7e3') in 0.030458 seconds
-  Import took 0.044233 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ce283d384579a24208b2e4d727c2a') in 0.012505 seconds
+  Import took 0.021863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.981741 seconds.
+  path: Assets/ControlViaFirebase
+  artifactKey: Guid(7c69996792fbd264d84879432013e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase using Guid(7c69996792fbd264d84879432013e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce4cc9446096b2195ec5dfb2d79c78f') in 0.013708 seconds
+  Import took 0.025930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.781913 seconds.
+  path: Assets/RestClient
+  artifactKey: Guid(c18fa6b28565bf44dadf9189348e593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RestClient using Guid(c18fa6b28565bf44dadf9189348e593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34432e43e99c4b5a03350a21aebe235f') in 0.013287 seconds
+  Import took 0.015577 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002235 seconds.
+Registered in 0.002144 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.684 seconds
+- Completed reload, in  0.702 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 64.6 MB.
 System memory in use after: 64.7 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 1.576300 ms (FindLiveObjects: 0.127000 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.372500 ms  DeleteObjects: 0.034700 ms)
+Total: 1.797000 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.504500 ms  DeleteObjects: 0.077000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.413341 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages
+  artifactKey: Guid(745690b7cc0ad3b40827b0a0ec814fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages using Guid(745690b7cc0ad3b40827b0a0ec814fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387ebd653416c59fc57192aad2a802cd') in 0.012600 seconds
+  Import took 0.014854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001581 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/package.json
+  artifactKey: Guid(22fa438a69d374388b979a7b4688b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/package.json using Guid(22fa438a69d374388b979a7b4688b23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a6c9d581e68d38b31e746aa1abc7ef') in 0.036694 seconds
+  Import took 0.038782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/User.cs
+  artifactKey: Guid(37c1fa55dd1eb2b4aadbcbbbb4c4272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/User.cs using Guid(37c1fa55dd1eb2b4aadbcbbbb4c4272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce683f266fca2abb69c41e5754582f8') in 0.017134 seconds
+  Import took 0.019146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001458 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/EnumerableExt.cs
+  artifactKey: Guid(0801e5e984c3040b6b22f4b6d16c6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/EnumerableExt.cs using Guid(0801e5e984c3040b6b22f4b6d16c6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19f8cd336309385bbafc02b42aa2268') in 0.016591 seconds
+  Import took 0.045772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001829 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Scripts
+  artifactKey: Guid(6a4a8a106e84a9b419871a8f516b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Scripts using Guid(6a4a8a106e84a9b419871a8f516b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115d7b81b4383a495b710d13ad9ade2f') in 0.010942 seconds
+  Import took 0.029207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001598 seconds.
+  path: Assets/ControlViaFirebase/Data.cs
+  artifactKey: Guid(0958f56605acf7843a6676dfe9324cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/Data.cs using Guid(0958f56605acf7843a6676dfe9324cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414a83cc8989754211c72707410766ad') in 0.011130 seconds
+  Import took 0.012987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001508 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/Common.cs
+  artifactKey: Guid(f0596e8f6932d47d8be675b5159332af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/Common.cs using Guid(f0596e8f6932d47d8be675b5159332af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd8f18255b6f50f2e8b0ff970dfc026') in 0.016261 seconds
+  Import took 0.018089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001461 seconds.
+  path: Assets/ControlViaFirebase/XR/Loaders/Windows MR Loader.asset
+  artifactKey: Guid(bbfdf839fb2c9c641a814cc18382f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/XR/Loaders/Windows MR Loader.asset using Guid(bbfdf839fb2c9c641a814cc18382f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90546c6107b3ef37c82e52c1c1ad0b4b') in 0.016551 seconds
+  Import took 0.025987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001225 seconds.
+  path: Assets/ControlViaFirebase/XR/Settings
+  artifactKey: Guid(9593ef0f6e01991488429a800695ff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/XR/Settings using Guid(9593ef0f6e01991488429a800695ff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b331f1fff38c4d34de5ee95918320d98') in 0.011434 seconds
+  Import took 0.013725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001880 seconds.
+  path: Assets/ControlViaFirebase/RestClient/RestClient.pdf
+  artifactKey: Guid(475015657fb064908b91cc94e2364d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/RestClient.pdf using Guid(475015657fb064908b91cc94e2364d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88659bf0b1b754446f0b156049e7a12b') in 0.005344 seconds
+  Import took 0.012708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001534 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Promise_NonGeneric.cs
+  artifactKey: Guid(49b20f1956b6a4a06b97491adf50ac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Promise_NonGeneric.cs using Guid(49b20f1956b6a4a06b97491adf50ac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bf871daea37459c9145ed0dbabe086') in 0.014722 seconds
+  Import took 0.017178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001603 seconds.
+  path: Assets/ControlViaFirebase/pullFromFirebase.cs
+  artifactKey: Guid(4f713fe13391aee40a59329cf6bd62c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/pullFromFirebase.cs using Guid(4f713fe13391aee40a59329cf6bd62c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c57c6152d5c099d0a36667366315f6') in 0.015883 seconds
+  Import took 0.017857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001635 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/ResponseHelper.cs
+  artifactKey: Guid(5303a46962f674f8893edf45bf73ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/ResponseHelper.cs using Guid(5303a46962f674f8893edf45bf73ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbde295a84b0cf84f6ef238240cbe43e') in 0.015268 seconds
+  Import took 0.017318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001600 seconds.
+  path: Assets/ControlViaFirebase/pushFirebase.cs
+  artifactKey: Guid(a0677c6faa554ba429b07eaa1bfd4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/pushFirebase.cs using Guid(a0677c6faa554ba429b07eaa1bfd4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f671b5921e0f150f33f41dc2c43636') in 0.015985 seconds
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001618 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs
+  artifactKey: Guid(c4261a75daa114e61a6a07fae6f1bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs using Guid(c4261a75daa114e61a6a07fae6f1bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13355faa3c17e7b160af57d38955fb68') in 0.015972 seconds
+  Import took 0.018149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002818 seconds.
+  path: Assets/ControlViaFirebase/XR/XRGeneralSettings.asset
+  artifactKey: Guid(26bf7b787d8fb4b4d8b4eaf53f0f0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/XR/XRGeneralSettings.asset using Guid(26bf7b787d8fb4b4d8b4eaf53f0f0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab3b6aed55b27385743f8bca14f1a1') in 0.017137 seconds
+  Import took 0.019038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001521 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/MainScript.cs
+  artifactKey: Guid(92b89366f540895438070c1d6e96f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/MainScript.cs using Guid(92b89366f540895438070c1d6e96f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d1df03381f821d8f4fdbd3380205ba') in 0.003654 seconds
+  Import took 0.005722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001516 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/Todo.cs
+  artifactKey: Guid(aa16cf12a1add014d90251f81dca6a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/Todo.cs using Guid(aa16cf12a1add014d90251f81dca6a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b51f89f990f8c8adddade95da78084e') in 0.003539 seconds
+  Import took 0.005268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001489 seconds.
+  path: Assets/ControlViaFirebase/XR/Settings/Windows MR Package Settings.asset
+  artifactKey: Guid(c7a51cfb1071a664f9b14bcd5b4327b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/XR/Settings/Windows MR Package Settings.asset using Guid(c7a51cfb1071a664f9b14bcd5b4327b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571ed74f7a7a87f98e04e534782f475b') in 0.006287 seconds
+  Import took 0.008330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001162 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene
+  artifactKey: Guid(64a10827858b48c42b149ac9f4bd2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene using Guid(64a10827858b48c42b149ac9f4bd2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2d7822f41bb80ea2d04d8b86bf1a88') in 0.003552 seconds
+  Import took 0.005269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001539 seconds.
+  path: Assets/ControlViaFirebase/Scripts/ControllarCommand.cs
+  artifactKey: Guid(acfe8b7e8dfe35a4eba3922431eeed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/Scripts/ControllarCommand.cs using Guid(acfe8b7e8dfe35a4eba3922431eeed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da93137c6999122e2e9628744f9b314') in 0.003534 seconds
+  Import took 0.005247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001379 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers
+  artifactKey: Guid(4ad9b2bb061b34d0cbc89846acac21e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers using Guid(4ad9b2bb061b34d0cbc89846acac21e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f11ce0139ee4edc26c79e251b3d85c') in 0.003608 seconds
+  Import took 0.005630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002101 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/Extensions.cs
+  artifactKey: Guid(14d6bf89020404ffcae7bb1c4e0914f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/Extensions.cs using Guid(14d6bf89020404ffcae7bb1c4e0914f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416dae7b65a789aff3be392099c5808f') in 0.003560 seconds
+  Import took 0.005316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001488 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestException.cs
+  artifactKey: Guid(1b65a702f324c421481fd11a668883be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestException.cs using Guid(1b65a702f324c421481fd11a668883be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a5c17e1f4ba81770fa12d6eeadcb99') in 0.003707 seconds
+  Import took 0.005485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001897 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/JsonHelper.cs
+  artifactKey: Guid(944681adfb0c241ad8130c56271145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/JsonHelper.cs using Guid(944681adfb0c241ad8130c56271145ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03863edd04481148427c2eef55c3c8d') in 0.003611 seconds
+  Import took 0.005693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001206 seconds.
+  path: Assets/ControlViaFirebase/XR
+  artifactKey: Guid(220dd26cecb222d488b76cf8b219a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/XR using Guid(220dd26cecb222d488b76cf8b219a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3837ee2a532162bfe69f158b94fcc69') in 0.003663 seconds
+  Import took 0.005355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001528 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/PromiseHelpers.cs
+  artifactKey: Guid(ec289e55344824b35a197dd79cfc75d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/PromiseHelpers.cs using Guid(ec289e55344824b35a197dd79cfc75d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e3f7635ed4bec3e7d705fa4be65231') in 0.004058 seconds
+  Import took 0.006104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001529 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/HttpBase.cs
+  artifactKey: Guid(1baea21eb28d54f6798a1744231bdbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/HttpBase.cs using Guid(1baea21eb28d54f6798a1744231bdbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2ed61ab692c6d36baf58d1d20861e3') in 0.003589 seconds
+  Import took 0.005511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001209 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Exceptions
+  artifactKey: Guid(99f26a5b7f4724f56aa016db0144bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Exceptions using Guid(99f26a5b7f4724f56aa016db0144bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3c04aa429db20990493c08eeb70b0f') in 0.003581 seconds
+  Import took 0.006097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002241 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/Photo.cs
+  artifactKey: Guid(8fc9f19249cdb9b4db54d74d021637f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/Photo.cs using Guid(8fc9f19249cdb9b4db54d74d021637f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb0cd5b81b17208c20ec2903ead65f8') in 0.003581 seconds
+  Import took 0.005393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001517 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/RestClient.cs
+  artifactKey: Guid(94707c19b4d894fe999322dd4081f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/RestClient.cs using Guid(94707c19b4d894fe999322dd4081f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b239fb13383b5ebddfedb72cc13d9f') in 0.001028 seconds
+  Import took 0.002722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001452 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelper.cs
+  artifactKey: Guid(cb1ce224301264c95a75e5d9c3e515e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelper.cs using Guid(cb1ce224301264c95a75e5d9c3e515e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916bcbfdfbe4f361a77c0a2ffa83c6fe') in 0.003542 seconds
+  Import took 0.005433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001112 seconds.
+  path: Assets/ControlViaFirebase/XR/Loaders
+  artifactKey: Guid(09548c57f80aec2499eb7a9107cd6e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/XR/Loaders using Guid(09548c57f80aec2499eb7a9107cd6e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2037a11697b52308d9e67ae0fb633021') in 0.003564 seconds
+  Import took 0.005347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001271 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise
+  artifactKey: Guid(f6ef2f4633f014a7ebe279813337eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise using Guid(f6ef2f4633f014a7ebe279813337eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39806515d8568dcf747c4e4006a7797') in 0.003687 seconds
+  Import took 0.005707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001482 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelperExtension.cs
+  artifactKey: Guid(af3ec85e82c4d41be8195a8bc75d16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelperExtension.cs using Guid(af3ec85e82c4d41be8195a8bc75d16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af7787317c710136ac02f43ec2678c3') in 0.003849 seconds
+  Import took 0.006234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001517 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Exceptions/PromiseStateException.cs
+  artifactKey: Guid(48bb5ff44ca2b4f0dac1d5ad54ff9316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Exceptions/PromiseStateException.cs using Guid(48bb5ff44ca2b4f0dac1d5ad54ff9316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e731f44e34a8178da44128c3c9bae9ee') in 0.003886 seconds
+  Import took 0.006349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002112 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Demo.unity
+  artifactKey: Guid(0ac2984141c33e84691447d0423d8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Demo.unity using Guid(0ac2984141c33e84691447d0423d8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7938e47500cb56d793312d6c114d7767') in 0.003933 seconds
+  Import took 0.010679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001537 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/StaticCoroutine.cs
+  artifactKey: Guid(9753d533c86bf42d383b547c5f2e4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient/Helpers/StaticCoroutine.cs using Guid(9753d533c86bf42d383b547c5f2e4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9972ffce4e13698c2dc37fe463ce40') in 0.003606 seconds
+  Import took 0.005332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001452 seconds.
+  path: Assets/ControlViaFirebase/Dependecies.txt
+  artifactKey: Guid(1272e066fdf1a9c4eab8c31deaa95259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/Dependecies.txt using Guid(1272e066fdf1a9c4eab8c31deaa95259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2fd41f8440552bf5af77616cb6a875') in 0.007140 seconds
+  Import took 0.008893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001470 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/PromiseTimer.cs
+  artifactKey: Guid(342d70dc4882f49528ab7c0bc5b4a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/PromiseTimer.cs using Guid(342d70dc4882f49528ab7c0bc5b4a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba267c5ee9c0d4e17a8a84d2adefbe58') in 0.003592 seconds
+  Import took 0.005352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001527 seconds.
+  path: Assets/ControlViaFirebase/formRegistry.cs
+  artifactKey: Guid(742f5b16b5a7d164da9988af47a223af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/formRegistry.cs using Guid(742f5b16b5a7d164da9988af47a223af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5849784b84812f431b4f8fe944d687fa') in 0.003564 seconds
+  Import took 0.005728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001787 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient
+  artifactKey: Guid(635ebf53860f2423fa32b3ab9cbc16a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/Proyecto26.RestClient using Guid(635ebf53860f2423fa32b3ab9cbc16a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db22259b3033be116c1991ebc024960') in 0.003629 seconds
+  Import took 0.005418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001513 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Tuple.cs
+  artifactKey: Guid(828e595808b9d460494cdee0fbbb4673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Tuple.cs using Guid(828e595808b9d460494cdee0fbbb4673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084c508f42f5ec147e846c6e13eaa80a') in 0.003743 seconds
+  Import took 0.005456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001749 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model
+  artifactKey: Guid(59b224f75a257a8499679ad0491b5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model using Guid(59b224f75a257a8499679ad0491b5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c34078bc3875aa70bc37699e1a29e98') in 0.003590 seconds
+  Import took 0.005384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001482 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Exceptions/PromiseException.cs
+  artifactKey: Guid(500950eef2498486eb931be339405174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Exceptions/PromiseException.cs using Guid(500950eef2498486eb931be339405174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267f8b9b28819e0147724ca9e80fce34') in 0.003489 seconds
+  Import took 0.005226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001982 seconds.
+  path: Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/Post.cs
+  artifactKey: Guid(a789d19056723694dbba1b5e669d6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/DemoScene/Scripts/Model/Post.cs using Guid(a789d19056723694dbba1b5e669d6477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c779c4a2713053941c4b3caa384345') in 0.003538 seconds
+  Import took 0.005226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001473 seconds.
+  path: Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Promise.cs
+  artifactKey: Guid(dc4956e7f53e54abd9d54e327f095a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControlViaFirebase/RestClient/Packages/RSG.Promise/Promise.cs using Guid(dc4956e7f53e54abd9d54e327f095a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b95f5ac9d55d0632fb9c9af43715f25') in 0.003593 seconds
+  Import took 0.005679 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002268 seconds.
+Registered in 0.002243 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
+- Completed reload, in  0.708 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1839.
-Total: 6.616300 ms (FindLiveObjects: 0.445700 ms CreateObjectMapping: 0.170300 ms MarkObjects: 5.958800 ms  DeleteObjects: 0.039200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 452.844184 seconds.
-  path: Assets/pushFirebase.cs
-  artifactKey: Guid(a0677c6faa554ba429b07eaa1bfd4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pushFirebase.cs using Guid(a0677c6faa554ba429b07eaa1bfd4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017427e8214b0e8a2f667eff051b377e') in 0.006505 seconds
-  Import took 0.010636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.489576 seconds.
-  path: Assets/Scenes/Sender.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sender.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197c9449c0fab387af8c3ef092562d92') in 0.020075 seconds
-  Import took 0.029870 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002551 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 1.842500 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.465800 ms  DeleteObjects: 0.068100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002229 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.741 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 1.657600 ms (FindLiveObjects: 0.141600 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.432900 ms  DeleteObjects: 0.039800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002229 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 1.468300 ms (FindLiveObjects: 0.125900 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.264000 ms  DeleteObjects: 0.040600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 723.976648 seconds.
-  path: Assets/Scenes/Sender.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sender.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4cc31d62b79083ebca02e7af0698c0') in 0.010563 seconds
-  Import took 0.051902 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002392 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 1.754900 ms (FindLiveObjects: 0.296800 ms CreateObjectMapping: 0.107400 ms MarkObjects: 1.305800 ms  DeleteObjects: 0.043800 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 37.7 MB.
-System memory in use after: 37.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 1.828100 ms (FindLiveObjects: 0.216300 ms CreateObjectMapping: 0.075200 ms MarkObjects: 1.491700 ms  DeleteObjects: 0.044000 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 37.7 MB.
-System memory in use after: 37.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 1.737400 ms (FindLiveObjects: 0.169100 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.472000 ms  DeleteObjects: 0.050500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002210 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.748 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1854.
-Total: 1.604900 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.241800 ms  DeleteObjects: 0.044100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002543 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.727 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1857.
-Total: 1.504400 ms (FindLiveObjects: 0.135900 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.254500 ms  DeleteObjects: 0.037100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002422 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.710 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1860.
-Total: 1.622400 ms (FindLiveObjects: 0.131300 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.412000 ms  DeleteObjects: 0.039400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002387 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 1366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1863.
-Total: 1.514500 ms (FindLiveObjects: 0.166400 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.263100 ms  DeleteObjects: 0.040600 ms)
+Total: 6.128500 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.154000 ms MarkObjects: 5.471000 ms  DeleteObjects: 0.096100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
